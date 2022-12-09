@@ -111,11 +111,13 @@
     },
     "control": {
         "robot_inventor_control": "RobotInventorControl",
+        "ev3_control": "EV3Control",
         "control_service": {
             "class": "ControlService",
             "friendly_name": "Control Service",
             "worker_list": [
-                "robot_inventor_control"
+                "robot_inventor_control",
+                "ev3_control"
             ]
         }
     },
